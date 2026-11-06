@@ -2,6 +2,16 @@
 
 An Arduino-based Morse Code transmitter that converts text into International Morse Code using an LED and buzzer.
 
+## Project Overview
+The following image shows the Arduino Morse Code circuit in Tinkercad:
+![Arduino Morse Code Tinkercad](images/arduino-morse-code-circuit.png)
+
+Circuit Schematic
+
+The schematic below illustrates the circuit connections between the Arduino board, LED, and buzzer. The circuit was designed and simulated using Tinkercad.
+
+![Arduino Morse Code Schematic](images/arduino-morse-code-schematic.png)
+
 ## Features
 
 - Converts letters (A–Z) and numbers (0–9) into Morse Code.
@@ -66,7 +76,6 @@ Unsupported characters are reported through the Serial Monitor.
 - Add support for punctuation.
 - Implement non-blocking transmission using `millis()`.
 - Add the ability to receive and decode Morse Code.
-- Allow adjustable transmission speed.
 
 ## License
 
